@@ -6,9 +6,9 @@ application.log
 /allure-results
 .settings
 .classpath
-/screenshots
 applog.txt
 *.xml
 *.js
 *.MF
 *.html
+*.png
