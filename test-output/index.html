@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-JIO_Automation_Suite">
+              <span class="suite-name border-failed">JIO Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-JIO_Automation_Suite">
+                    <span>C:\Users\danish\eclipse-workspace\jioautomation\src\main\java\com\jio\qa\resources\testngsuites\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-JIO_Automation_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-JIO_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-JIO_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-JIO_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-JIO_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-JIO_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-JIO_Automation_Suite" class="hide-methods failed suite-JIO_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-JIO_Automation_Suite -->
+                      <a href="#" panel-name="suite-JIO_Automation_Suite" class="show-methods failed suite-JIO_Automation_Suite"> (show)</a> <!-- show-methods failed suite-JIO_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-JIO_Automation_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JIO_Automation_Suite" title="com.jio.qa.ui.homepage.HomePageTest" hash-for-method="testDisplayOfPrimeEnabledItems">testDisplayOfPrimeEnabledItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JIO_Automation_Suite" title="com.jio.qa.ui.homepage.HomePageTest" hash-for-method="testLowToHighPriceFilter">testLowToHighPriceFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-JIO_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-JIO_Automation_Suite" class="hide-methods passed suite-JIO_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-JIO_Automation_Suite -->
+                      <a href="#" panel-name="suite-JIO_Automation_Suite" class="show-methods passed suite-JIO_Automation_Suite"> (show)</a> <!-- show-methods passed suite-JIO_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-JIO_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JIO_Automation_Suite" title="com.jio.qa.ui.homepage.HomePageTest" hash-for-method="testAddTwoLineItemsToCartAndVerify">testAddTwoLineItemsToCartAndVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JIO_Automation_Suite" title="com.jio.qa.ui.homepage.HomePageTest" hash-for-method="testGetAllAmazonCategories">testGetAllAmazonCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JIO_Automation_Suite" title="com.jio.qa.ui.homepage.HomePageTest" hash-for-method="testSearchProductOnWebsite">testSearchProductOnWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-JIO_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-JIO_Automation_Suite" class="panel JIO_Automation_Suite">
+          <div class="suite-JIO_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jio.qa.ui.homepage.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayOfPrimeEnabledItems">
+                  </a> <!-- testDisplayOfPrimeEnabledItems -->
+                  <span class="method-name">testDisplayOfPrimeEnabledItems</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 non-prime Item(s) are displayed on UI expected [false] but found [true]
+	at com.jio.qa.base.homepage.HomePageBaseTest.addPrimeFilterAndVerify(HomePageBaseTest.java:90)
+	at com.jio.qa.ui.homepage.HomePageTest.testDisplayOfPrimeEnabledItems(HomePageTest.java:46)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLowToHighPriceFilter">
+                  </a> <!-- testLowToHighPriceFilter -->
+                  <span class="method-name">testLowToHighPriceFilter</span>
+                  <div class="stack-trace">java.lang.AssertionError: Product Price is not displayed in ascending order after applying Low to High Price Filter expected [true] but found [false]
+	at com.jio.qa.base.homepage.HomePageBaseTest.sortLowToHighMethod(HomePageBaseTest.java:57)
+	at com.jio.qa.ui.homepage.HomePageTest.testLowToHighPriceFilter(HomePageTest.java:36)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JIO_Automation_Suite-class-failed -->
+          <div class="suite-JIO_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jio.qa.ui.homepage.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddTwoLineItemsToCartAndVerify">
+                  </a> <!-- testAddTwoLineItemsToCartAndVerify -->
+                  <span class="method-name">testAddTwoLineItemsToCartAndVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllAmazonCategories">
+                  </a> <!-- testGetAllAmazonCategories -->
+                  <span class="method-name">testGetAllAmazonCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProductOnWebsite">
+                  </a> <!-- testSearchProductOnWebsite -->
+                  <span class="method-name">testSearchProductOnWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JIO_Automation_Suite-class-passed -->
+        </div> <!-- panel JIO_Automation_Suite -->
+        <div panel-name="test-xml-JIO_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\danish\eclipse-workspace\jioautomation\src\main\java\com\jio\qa\resources\testngsuites\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;JIO Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.jio.qa.listener.ExtentReportsListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon WebSite Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jio.qa.ui.homepage.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon WebSite Test --&gt;
+&lt;/suite&gt; &lt;!-- JIO Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-JIO_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for JIO Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon WebSite Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-JIO_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for JIO Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-JIO_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for JIO Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_JIO_Automation_Suite');
+function tableData_JIO_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddTwoLineItemsToCartAndVerify')
+data.setCell(0, 2, 'com.jio.qa.ui.homepage.HomePageTest')
+data.setCell(0, 3, 29020);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLowToHighPriceFilter')
+data.setCell(1, 2, 'com.jio.qa.ui.homepage.HomePageTest')
+data.setCell(1, 3, 9685);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDisplayOfPrimeEnabledItems')
+data.setCell(2, 2, 'com.jio.qa.ui.homepage.HomePageTest')
+data.setCell(2, 3, 7266);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearchProductOnWebsite')
+data.setCell(3, 2, 'com.jio.qa.ui.homepage.HomePageTest')
+data.setCell(3, 3, 4093);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetAllAmazonCategories')
+data.setCell(4, 2, 'com.jio.qa.ui.homepage.HomePageTest')
+data.setCell(4, 3, 2202);
+window.suiteTableData['JIO_Automation_Suite']= { tableData: data, tableDiv: 'times-div-JIO_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-JIO_Automation_Suite">
+              </div> <!-- times-div-JIO_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-JIO_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for JIO Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-JIO_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-JIO_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jio.qa.ui.homepage.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">deleteExistingReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllAmazonCategories</span>
+                <span class="method-start">17154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchProductOnWebsite</span>
+                <span class="method-start">37366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLowToHighPriceFilter</span>
+                <span class="method-start">59083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddTwoLineItemsToCartAndVerify</span>
+                <span class="method-start">89050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDisplayOfPrimeEnabledItems</span>
+                <span class="method-start">131884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">139598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuiteMethod</span>
+                <span class="method-start">141260 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

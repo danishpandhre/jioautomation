@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JIO Automation Suite" verbose="1" >
+
+	<listeners>
+	    <listener class-name="com.jio.qa.listener.ExtentReportsListener"/>
+	</listeners>
+
+	  <test name="Amazon WebSite Test" >
+	    <classes>
+	      <class name="com.jio.qa.ui.homepage.HomePageTest"/>
+	    </classes>
+	 </test>
+</suite>

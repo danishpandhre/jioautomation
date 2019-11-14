@@ -1,0 +1,1 @@
+{"uuid":"4c906654-a826-4682-ba8a-7e4fc687a49d","name":"Default suite","children":["a7a576f2-01c0-4044-bf2a-ca5186bf720c"],"befores":[{"name":"deleteExistingReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1573595118803,"stop":1573595118818}],"afters":[],"links":[],"start":1573595118728,"stop":1573595161150}

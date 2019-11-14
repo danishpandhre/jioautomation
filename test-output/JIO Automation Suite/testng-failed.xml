@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JIO Automation Suite]">
+  <listeners>
+    <listener class-name="com.jio.qa.listener.ExtentReportsListener"/>
+  </listeners>
+  <test thread-count="5" name="Amazon WebSite Test(failed)">
+    <classes>
+      <class name="com.jio.qa.ui.homepage.HomePageTest">
+        <methods>
+          <include name="testLowToHighPriceFilter"/>
+          <include name="testDisplayOfPrimeEnabledItems"/>
+          <include name="afterSuiteMethod"/>
+          <include name="setUp"/>
+          <include name="deleteExistingReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jio.qa.ui.homepage.HomePageTest -->
+    </classes>
+  </test> <!-- Amazon WebSite Test(failed) -->
+</suite> <!-- Failed suite [JIO Automation Suite] -->
