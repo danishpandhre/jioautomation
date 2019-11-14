@@ -1,0 +1,15 @@
+/target/*
+/test-output/*
+.DS_Store
+*.iml
+application.log
+/allure-results
+.settings
+.classpath
+/screenshots
+.project
+applog.txt
+*.xml
+*.js
+*.MF
+*.html
