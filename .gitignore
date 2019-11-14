@@ -7,7 +7,6 @@ application.log
 .settings
 .classpath
 /screenshots
-.project
 applog.txt
 *.xml
 *.js
